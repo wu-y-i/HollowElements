@@ -1,0 +1,26 @@
+{
+  "game": { "version": "1.5.78.11833", "unity": "2020.2.2f1", "framework": "net472" },
+  "api": {
+    "repository": "https://github.com/hk-modding/api.git",
+    "tag": "1.5.78.11833-77",
+    "commit": "3c47ab577dfcac71bcfae73415618c79310b8f52",
+    "asset": "moddingapi.v77.windows.zip",
+    "sha256": "bc9f0db3d0916b05cd5a2420bb602fb1b239ce3ff6c289fd84bffb682fb8f1d6"
+  },
+  "satchel": {
+    "repository": "https://github.com/PrashantMohta/Satchel",
+    "tag": "v0.9.4",
+    "asset": "Satchel.dll",
+    "sha256": "9468cee21df28819167bd0861d73beeb59acd70b30813ada577ef536c4b4c6e1"
+  },
+  "sdk": {
+    "version": "10.0.402",
+    "purpose": "build tooling only; runtime stays net472",
+    "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/10.0.402/dotnet-sdk-10.0.402-win-x64.zip",
+    "sha512": "ae4fd528cb7e9f6af6aaf7de36715a69f761f183744f1bb3025d19f5a92447090ec561410e46266c1d10a63781ed6f3de771760bc76c876d87daabc367b898cd"
+  },
+  "referencePackages": [
+    { "id": "microsoft.netframework.referenceassemblies", "version": "1.0.3", "sha256": "141a093f90c7645d101ccd312e6f727781c965540eb92a52280f95411a698441" },
+    { "id": "microsoft.netframework.referenceassemblies.net472", "version": "1.0.3", "sha256": "ffa0a5570a39f911399164d0581ffddef99b5e3dfbaA5f220e5ce22969bcf57c" }
+  ]
+}

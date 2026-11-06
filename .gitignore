@@ -1,0 +1,37 @@
+# Local environment, upstream checkouts, planning and generated output
+/.agents/
+/.codex/
+/docs/
+/local/
+/artifacts/
+/workspaces/api/
+/workspaces/art/*
+!/workspaces/art/source/
+/workspaces/art/source/*
+!/workspaces/art/source/bosses/
+!/workspaces/art/source/charms/
+!/workspaces/art/source/icons/
+!/workspaces/art/source/fonts/
+!/workspaces/art/source/audio/
+/workspaces/art/source/audio/*
+!/workspaces/art/source/audio/generated/
+/workspaces/art/source/audio/generated/*
+!/workspaces/art/source/audio/generated/*.wav
+/workspaces/art/source/**/*.md
+/*.code-workspace
+
+# Build products and caches
+**/bin/
+**/obj/
+**/__pycache__/
+**/node_modules/
+**/dist/
+**/.vs/
+**/Library/
+**/Temp/
+**/Logs/
+**/UserSettings/
+*.pyc
+*.user
+*.suo
+

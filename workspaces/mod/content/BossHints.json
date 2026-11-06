@@ -1,0 +1,397 @@
+{
+  "Version": 1,
+  "Entries": [
+    {
+      "Id": "boss-01",
+      "Name": "复仇蝇之王",
+      "Text": "吼叫切换元素附着",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Vengefly",
+        "GG_Vengefly_V"
+      ]
+    },
+    {
+      "Id": "boss-02",
+      "Name": "格鲁兹之母",
+      "Text": "碰撞切换元素攻击",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Gruz_Mother",
+        "GG_Gruz_Mother_V"
+      ]
+    },
+    {
+      "Id": "boss-03",
+      "Name": "假骑士",
+      "Text": "蛆虫回壳继承元素附着，铠甲免疫该元素伤害",
+      "Enabled": true,
+      "Scenes": [
+        "GG_False_Knight"
+      ]
+    },
+    {
+      "Id": "boss-04",
+      "Name": "大型苔藓冲锋者",
+      "Text": "难以被击退",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Mega_Moss_Charger"
+      ]
+    },
+    {
+      "Id": "boss-05",
+      "Name": "大黄蜂·守护者",
+      "Text": "重复同元素造成的伤害降低，反应叠加易伤和加速",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Hornet_1"
+      ]
+    },
+    {
+      "Id": "boss-06",
+      "Name": "戈布",
+      "Text": "三阶段：不触发反应四剑连发，触发反应两剑连发",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Ghost_Gorb",
+        "GG_Ghost_Gorb_V"
+      ]
+    },
+    {
+      "Id": "boss-07",
+      "Name": "粪虫防御者",
+      "Text": "超载倒地，粪球会分裂",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Dung_Defender"
+      ]
+    },
+    {
+      "Id": "boss-08",
+      "Name": "灵魂战士",
+      "Text": "",
+      "Enabled": false,
+      "Scenes": [
+        "GG_Mage_Knight",
+        "GG_Mage_Knight_V"
+      ]
+    },
+    {
+      "Id": "boss-09",
+      "Name": "躁郁的毛里克",
+      "Text": "受伤概率给自己附着冰",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Brooding_Mawlek",
+        "GG_Brooding_Mawlek_V"
+      ]
+    },
+    {
+      "Id": "boss-10",
+      "Name": "骨钉兄弟奥罗与马托",
+      "Text": "水与火交织",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Nailmasters"
+      ]
+    },
+    {
+      "Id": "boss-11",
+      "Name": "泽若",
+      "Text": "",
+      "Enabled": false,
+      "Scenes": [
+        "GG_Ghost_Xero",
+        "GG_Ghost_Xero_V"
+      ]
+    },
+    {
+      "Id": "boss-12",
+      "Name": "水晶守卫",
+      "Text": "超载破盾，被boss击中后普攻元素切换为火/雷",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Crystal_Guardian"
+      ]
+    },
+    {
+      "Id": "boss-13",
+      "Name": "灵魂大师",
+      "Text": "",
+      "Enabled": false,
+      "Scenes": [
+        "GG_Soul_Master"
+      ]
+    },
+    {
+      "Id": "boss-14",
+      "Name": "奥波路波",
+      "Text": "无限火/雷附着，狂暴免疫附着元素伤害",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Oblobbles"
+      ]
+    },
+    {
+      "Id": "boss-15",
+      "Name": "战斗姐妹",
+      "Text": "",
+      "Enabled": false,
+      "Scenes": [
+        "GG_Mantis_Lords",
+        "GG_Mantis_Lords_V"
+      ]
+    },
+    {
+      "Id": "boss-16",
+      "Name": "马尔穆",
+      "Text": "超载冻结强制控制，但恢复后弹跳加快",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Ghost_Marmu",
+        "GG_Ghost_Marmu_V"
+      ]
+    },
+    {
+      "Id": "boss-17",
+      "Name": "吸虫之母",
+      "Text": "水池可挂水",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Flukemarm"
+      ]
+    },
+    {
+      "Id": "boss-18",
+      "Name": "残破容器",
+      "Text": "超载倒地，起身后提高伤害和易伤",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Broken_Vessel"
+      ]
+    },
+    {
+      "Id": "boss-19",
+      "Name": "加利安",
+      "Text": "",
+      "Enabled": false,
+      "Scenes": [
+        "GG_Ghost_Galien"
+      ]
+    },
+    {
+      "Id": "boss-20",
+      "Name": "骨钉画师席奥",
+      "Text": "",
+      "Enabled": false,
+      "Scenes": [
+        "GG_Painter"
+      ]
+    },
+    {
+      "Id": "boss-21",
+      "Name": "蜂巢骑士",
+      "Text": "",
+      "Enabled": false,
+      "Scenes": [
+        "GG_Hive_Knight"
+      ]
+    },
+    {
+      "Id": "boss-22",
+      "Name": "胡长老",
+      "Text": "被锤子命中后黑冲变白冲",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Ghost_Hu"
+      ]
+    },
+    {
+      "Id": "boss-23",
+      "Name": "收藏家",
+      "Text": "受到反应掉罐子，小怪死亡时本体扣血",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Collector",
+        "GG_Collector_V"
+      ]
+    },
+    {
+      "Id": "boss-24",
+      "Name": "神之驯服者",
+      "Text": "双方共享附着，反应伤害成倍传给另一方",
+      "Enabled": true,
+      "Scenes": [
+        "GG_God_Tamer"
+      ]
+    },
+    {
+      "Id": "boss-25",
+      "Name": "格林·剧团团长",
+      "Text": "被火附着时被格林击中伤害加一",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Grimm"
+      ]
+    },
+    {
+      "Id": "boss-26",
+      "Name": "守望者骑士",
+      "Text": "须超载破甲；超导施加易伤",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Watcher_Knights"
+      ]
+    },
+    {
+      "Id": "boss-27",
+      "Name": "乌姆",
+      "Text": "两次非增幅反应破盾，反应破盾后受到易伤",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Uumuu",
+        "GG_Uumuu_V"
+      ]
+    },
+    {
+      "Id": "boss-28",
+      "Name": "有翼诺斯克",
+      "Text": "",
+      "Enabled": false,
+      "Scenes": [
+        "GG_Nosk_Hornet",
+        "GG_Nosk",
+        "GG_Nosk_V"
+      ]
+    },
+    {
+      "Id": "boss-29",
+      "Name": "伟大骨钉贤者斯莱",
+      "Text": "造成与小骑士元素配置相同的伤害",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Sly"
+      ]
+    },
+    {
+      "Id": "boss-30",
+      "Name": "大黄蜂·岗哨",
+      "Text": "重复同元素造成的伤害降低，反应叠加易伤和加速",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Hornet_2"
+      ]
+    },
+    {
+      "Id": "boss-31",
+      "Name": "暴怒守卫",
+      "Text": "超载两次破盾，被boss击中后普攻元素切换为火/雷",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Crystal_Guardian_2"
+      ]
+    },
+    {
+      "Id": "boss-32",
+      "Name": "失落近亲",
+      "Text": "超载倒地，起身后提高伤害和易伤",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Lost_Kin"
+      ]
+    },
+    {
+      "Id": "boss-33",
+      "Name": "无眼",
+      "Text": "",
+      "Enabled": false,
+      "Scenes": [
+        "GG_Ghost_No_Eyes",
+        "GG_Ghost_No_Eyes_V"
+      ]
+    },
+    {
+      "Id": "boss-34",
+      "Name": "叛徒领主",
+      "Text": "受到反应后的下一次攻击替换为波",
+      "Enabled": false,
+      "Scenes": [
+        "GG_Traitor_Lord"
+      ]
+    },
+    {
+      "Id": "boss-35",
+      "Name": "白色防御者",
+      "Text": "两次超载可击倒，倒地后粪球会分裂",
+      "Enabled": true,
+      "Scenes": [
+        "GG_White_Defender"
+      ]
+    },
+    {
+      "Id": "boss-36",
+      "Name": "灵魂暴君",
+      "Text": "",
+      "Enabled": false,
+      "Scenes": [
+        "GG_Soul_Tyrant"
+      ]
+    },
+    {
+      "Id": "boss-37",
+      "Name": "马科斯",
+      "Text": "盾牌收到骨钉增幅反应停转，结束时异常高速旋转",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Ghost_Markoth",
+        "GG_Ghost_Markoth_V"
+      ]
+    },
+    {
+      "Id": "boss-38",
+      "Name": "灰色王子佐特",
+      "Text": "高波水，低波雷",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Grey_Prince_Zote"
+      ]
+    },
+    {
+      "Id": "boss-39",
+      "Name": "失败冠军",
+      "Text": "蛆虫回壳继承元素附着，铠甲免疫该元素伤害",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Failed_Champion"
+      ]
+    },
+    {
+      "Id": "boss-40",
+      "Name": "梦魇之王格林",
+      "Text": "被火附着时被格林击中伤害加一",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Grimm_Nightmare"
+      ]
+    },
+    {
+      "Id": "boss-41",
+      "Name": "纯粹容器",
+      "Text": "受到反应后的下一次攻击替换为虚空卷须",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Hollow_Knight"
+      ]
+    },
+    {
+      "Id": "boss-42",
+      "Name": "无上辐光",
+      "Text": "记录并无限附着受到的元素伤害和反应，并在击中玩家时逆向触发此反应",
+      "Enabled": true,
+      "Scenes": [
+        "GG_Radiance"
+      ]
+    }
+  ]
+}

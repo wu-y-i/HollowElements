@@ -1,0 +1,422 @@
+﻿{
+  "Version": 1,
+  "Title": "元素系统",
+  "Layout": {
+    "FontSize": 24,
+    "SidebarWidth": 300,
+    "ImageMaxHeight": 480,
+    "Spacing": 14
+  },
+  "Categories": [
+    {
+      "Title": "基础与操作",
+      "Entries": [
+        {
+          "Id": "start",
+          "Title": "阅读指南",
+          "File": "basics/start.md"
+        },
+        {
+          "Id": "aura",
+          "Title": "附着与命中",
+          "File": "basics/aura.md"
+        }
+      ]
+    },
+    {
+      "Title": "反应机制：对敌 / 受击",
+      "Entries": [
+        {
+          "Id": "vaporize",
+          "Title": "蒸发：火 + 水",
+          "File": "reactions/vaporize.md"
+        },
+        {
+          "Id": "melt",
+          "Title": "融化：火 + 冰",
+          "File": "reactions/melt.md"
+        },
+        {
+          "Id": "overload",
+          "Title": "超载：火 + 雷",
+          "File": "reactions/overload.md"
+        },
+        {
+          "Id": "electro",
+          "Title": "感电：水 + 雷",
+          "File": "reactions/electro.md"
+        },
+        {
+          "Id": "freeze",
+          "Title": "冻结 / 结霜：水 + 冰",
+          "File": "reactions/freeze.md"
+        },
+        {
+          "Id": "shatter",
+          "Title": "碎冰：控制后的追击",
+          "File": "reactions/shatter.md"
+        },
+        {
+          "Id": "superconduct",
+          "Title": "超导：冰 + 雷",
+          "File": "reactions/superconduct.md"
+        }
+      ]
+    },
+    {
+      "Title": "神居 Boss 改动",
+      "Entries": [
+        {
+          "Id": "boss-01",
+          "Title": "01 · 复仇蝇之王",
+          "File": "bosses/01.md",
+          "Scenes": [
+            "GG_Vengefly",
+            "GG_Vengefly_V"
+          ]
+        },
+        {
+          "Id": "boss-02",
+          "Title": "02 · 格鲁兹之母",
+          "File": "bosses/02.md",
+          "Scenes": [
+            "GG_Gruz_Mother",
+            "GG_Gruz_Mother_V"
+          ]
+        },
+        {
+          "Id": "boss-03",
+          "Title": "03 · 假骑士",
+          "File": "bosses/03.md",
+          "Scenes": [
+            "GG_False_Knight"
+          ]
+        },
+        {
+          "Id": "boss-04",
+          "Title": "04 · 大型苔藓冲锋者",
+          "File": "bosses/04.md",
+          "Scenes": [
+            "GG_Mega_Moss_Charger"
+          ]
+        },
+        {
+          "Id": "boss-05",
+          "Title": "05 · 大黄蜂·守护者",
+          "File": "bosses/05.md",
+          "Scenes": [
+            "GG_Hornet_1"
+          ]
+        },
+        {
+          "Id": "boss-06",
+          "Title": "06 · 戈布",
+          "File": "bosses/06.md",
+          "Scenes": [
+            "GG_Ghost_Gorb",
+            "GG_Ghost_Gorb_V"
+          ]
+        },
+        {
+          "Id": "boss-07",
+          "Title": "07 · 粪虫防御者",
+          "File": "bosses/07.md",
+          "Scenes": [
+            "GG_Dung_Defender"
+          ]
+        },
+        {
+          "Id": "boss-08",
+          "Title": "08 · 灵魂战士",
+          "File": "bosses/08.md",
+          "Scenes": [
+            "GG_Mage_Knight",
+            "GG_Mage_Knight_V"
+          ]
+        },
+        {
+          "Id": "boss-09",
+          "Title": "09 · 躁郁的毛里克",
+          "File": "bosses/09.md",
+          "Scenes": [
+            "GG_Brooding_Mawlek",
+            "GG_Brooding_Mawlek_V"
+          ]
+        },
+        {
+          "Id": "boss-10",
+          "Title": "10 · 骨钉兄弟奥罗与马托",
+          "File": "bosses/10.md",
+          "Scenes": [
+            "GG_Nailmasters"
+          ]
+        },
+        {
+          "Id": "boss-11",
+          "Title": "11 · 泽若",
+          "File": "bosses/11.md",
+          "Scenes": [
+            "GG_Ghost_Xero",
+            "GG_Ghost_Xero_V"
+          ]
+        },
+        {
+          "Id": "boss-12",
+          "Title": "12 · 水晶守卫",
+          "File": "bosses/12.md",
+          "Scenes": [
+            "GG_Crystal_Guardian"
+          ]
+        },
+        {
+          "Id": "boss-13",
+          "Title": "13 · 灵魂大师",
+          "File": "bosses/13.md",
+          "Scenes": [
+            "GG_Soul_Master"
+          ]
+        },
+        {
+          "Id": "boss-14",
+          "Title": "14 · 奥波路波",
+          "File": "bosses/14.md",
+          "Scenes": [
+            "GG_Oblobbles"
+          ]
+        },
+        {
+          "Id": "boss-15",
+          "Title": "15 · 战斗姐妹",
+          "File": "bosses/15.md",
+          "Scenes": [
+            "GG_Mantis_Lords",
+            "GG_Mantis_Lords_V"
+          ]
+        },
+        {
+          "Id": "boss-16",
+          "Title": "16 · 马尔穆",
+          "File": "bosses/16.md",
+          "Scenes": [
+            "GG_Ghost_Marmu",
+            "GG_Ghost_Marmu_V"
+          ]
+        },
+        {
+          "Id": "boss-17",
+          "Title": "17 · 吸虫之母",
+          "File": "bosses/17.md",
+          "Scenes": [
+            "GG_Flukemarm"
+          ]
+        },
+        {
+          "Id": "boss-18",
+          "Title": "18 · 残破容器",
+          "File": "bosses/18.md",
+          "Scenes": [
+            "GG_Broken_Vessel"
+          ]
+        },
+        {
+          "Id": "boss-19",
+          "Title": "19 · 加利安",
+          "File": "bosses/19.md",
+          "Scenes": [
+            "GG_Ghost_Galien"
+          ]
+        },
+        {
+          "Id": "boss-20",
+          "Title": "20 · 骨钉画师席奥",
+          "File": "bosses/20.md",
+          "Scenes": [
+            "GG_Painter"
+          ]
+        },
+        {
+          "Id": "boss-21",
+          "Title": "21 · 蜂巢骑士",
+          "File": "bosses/21.md",
+          "Scenes": [
+            "GG_Hive_Knight"
+          ]
+        },
+        {
+          "Id": "boss-22",
+          "Title": "22 · 胡长老",
+          "File": "bosses/22.md",
+          "Scenes": [
+            "GG_Ghost_Hu"
+          ]
+        },
+        {
+          "Id": "boss-23",
+          "Title": "23 · 收藏家",
+          "File": "bosses/23.md",
+          "Scenes": [
+            "GG_Collector",
+            "GG_Collector_V"
+          ]
+        },
+        {
+          "Id": "boss-24",
+          "Title": "24 · 神之驯服者",
+          "File": "bosses/24.md",
+          "Scenes": [
+            "GG_God_Tamer"
+          ]
+        },
+        {
+          "Id": "boss-25",
+          "Title": "25 · 格林·剧团团长",
+          "File": "bosses/25.md",
+          "Scenes": [
+            "GG_Grimm"
+          ]
+        },
+        {
+          "Id": "boss-26",
+          "Title": "26 · 守望者骑士",
+          "File": "bosses/26.md",
+          "Scenes": [
+            "GG_Watcher_Knights"
+          ]
+        },
+        {
+          "Id": "boss-27",
+          "Title": "27 · 乌姆",
+          "File": "bosses/27.md",
+          "Scenes": [
+            "GG_Uumuu",
+            "GG_Uumuu_V"
+          ]
+        },
+        {
+          "Id": "boss-28",
+          "Title": "28 · 有翼诺斯克",
+          "File": "bosses/28.md",
+          "Scenes": [
+            "GG_Nosk_Hornet",
+            "GG_Nosk",
+            "GG_Nosk_V"
+          ]
+        },
+        {
+          "Id": "boss-29",
+          "Title": "29 · 伟大骨钉贤者斯莱",
+          "File": "bosses/29.md",
+          "Scenes": [
+            "GG_Sly"
+          ]
+        },
+        {
+          "Id": "boss-30",
+          "Title": "30 · 大黄蜂·岗哨",
+          "File": "bosses/30.md",
+          "Scenes": [
+            "GG_Hornet_2"
+          ]
+        },
+        {
+          "Id": "boss-31",
+          "Title": "31 · 暴怒守卫",
+          "File": "bosses/31.md",
+          "Scenes": [
+            "GG_Crystal_Guardian_2"
+          ]
+        },
+        {
+          "Id": "boss-32",
+          "Title": "32 · 失落近亲",
+          "File": "bosses/32.md",
+          "Scenes": [
+            "GG_Lost_Kin"
+          ]
+        },
+        {
+          "Id": "boss-33",
+          "Title": "33 · 无眼",
+          "File": "bosses/33.md",
+          "Scenes": [
+            "GG_Ghost_No_Eyes",
+            "GG_Ghost_No_Eyes_V"
+          ]
+        },
+        {
+          "Id": "boss-34",
+          "Title": "34 · 叛徒领主",
+          "File": "bosses/34.md",
+          "Scenes": [
+            "GG_Traitor_Lord"
+          ]
+        },
+        {
+          "Id": "boss-35",
+          "Title": "35 · 白色防御者",
+          "File": "bosses/35.md",
+          "Scenes": [
+            "GG_White_Defender"
+          ]
+        },
+        {
+          "Id": "boss-36",
+          "Title": "36 · 灵魂暴君",
+          "File": "bosses/36.md",
+          "Scenes": [
+            "GG_Soul_Tyrant"
+          ]
+        },
+        {
+          "Id": "boss-37",
+          "Title": "37 · 马科斯",
+          "File": "bosses/37.md",
+          "Scenes": [
+            "GG_Ghost_Markoth",
+            "GG_Ghost_Markoth_V"
+          ]
+        },
+        {
+          "Id": "boss-38",
+          "Title": "38 · 灰色王子佐特",
+          "File": "bosses/38.md",
+          "Scenes": [
+            "GG_Grey_Prince_Zote"
+          ]
+        },
+        {
+          "Id": "boss-39",
+          "Title": "39 · 失败冠军",
+          "File": "bosses/39.md",
+          "Scenes": [
+            "GG_Failed_Champion"
+          ]
+        },
+        {
+          "Id": "boss-40",
+          "Title": "40 · 梦魇之王格林",
+          "File": "bosses/40.md",
+          "Scenes": [
+            "GG_Grimm_Nightmare"
+          ]
+        },
+        {
+          "Id": "boss-41",
+          "Title": "41 · 纯粹容器",
+          "File": "bosses/41.md",
+          "Scenes": [
+            "GG_Hollow_Knight"
+          ]
+        },
+        {
+          "Id": "boss-42",
+          "Title": "42 · 无上辐光",
+          "File": "bosses/42.md",
+          "Scenes": [
+            "GG_Radiance"
+          ]
+        }
+      ]
+    }
+  ]
+}
