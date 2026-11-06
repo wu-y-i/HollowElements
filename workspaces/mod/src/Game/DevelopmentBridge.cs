@@ -447,7 +447,7 @@ namespace HollowElements.Game
                 case "dump": return Dump();
                 case "capture": ScreenCapture.CaptureScreenshot(Path.Combine(directory, "game.png")); return "queued";
                 case "damageReductionMenu":
-                    var reductionMenu=runtime.Mod.GetMenuData(null).Single(entry=>entry.Name=="玩家直接伤害减伤");
+                    var reductionMenu=runtime.Mod.GetMenuData(null).Single(entry=>entry.Name=="难度");
                     if(c["index"]!=null) reductionMenu.Saver(c.Value<int>("index"));
                     var savedBalance=new Settings.SettingsStore();string savedMessage;
                     bool loadedBalance=savedBalance.TryReload(Path.Combine(runtime.Directory,"balance.json"),out savedMessage);

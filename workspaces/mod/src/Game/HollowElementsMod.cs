@@ -59,7 +59,7 @@ namespace HollowElements.Game
             var list = new List<IMenuMod.MenuEntry>();
             if (toggle.HasValue) list.Add(toggle.Value);
             EnsureBalanceSettings();
-            list.Add(new IMenuMod.MenuEntry { Name = "玩家直接伤害减伤", Description = "默认普通；极限／困难额外降低反应附伤。", Values = new[] { "极限", "困难", "平衡", "普通", "简单" },
+            list.Add(new IMenuMod.MenuEntry { Name = "难度", Description = "默认普通；极限／困难额外降低反应附伤。", Values = new[] { "极限", "困难", "平衡", "普通", "简单" },
                 Saver = SetDamageReduction, Loader = () => {
                     double multiplier = balanceSettings.Snapshot().DirectDamageMultiplier;
                     int nearest = 0;
